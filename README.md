@@ -107,7 +107,7 @@ _handleTemperature({detail}) {
 }
 ```
 
-The full source of the component is here: // link
+The full source of the component is [here](https://github.com/larsgk/web-thermometer/blob/main/src/thermometer-ui.js).
 
 # Building the application
 
