@@ -1,15 +1,23 @@
 ---
 title: Creating a Web Thermometer
-published: false
+published: true
 description: Learn how to build a web thermometer with Web Bluetooth and Web Components
 tags: Sensors, WebBluetooth, Fugu
-# cover_image: 
-# published_at: 2023-08-01 22:00 +0000
+cover_image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3w78v9cspnq5v9mgwljc.jpg
+published_at: 2023-08-11 22:00 +0000
 ---
+
+Spiderman has joined some LEGO spacemen in a quest to web enable a BLE GATT temperature sensor and display the readings on their 1x1cm brick display...
+
+While they're working on that, I'll share what's under the hood :)
 
 # Temperature Sensor in Thingy:52
 
 The [Thingy:52](https://www.nordicsemi.com/Products/Development-hardware/Nordic-Thingy-52) by [Nordic Semiconductor](https://www.nordicsemi.com/) has a lot of built-in sensors (temperature, humidity, pressure, air quality, color, accelerometer, gyroscope, and more).
+
+First, switch it on:
+
+![Switching on Thingy52](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4oin812qhzvy790lrhhb.jpg)
 
 In our case, we are interested in reading values from the temperature sensor, so let's take a look in the [documentation](https://nordicsemiconductor.github.io/Nordic-Thingy52-FW/documentation/firmware_architecture.html) for the device:
 
@@ -122,6 +130,8 @@ Besides that (the `thingy52-widget`), the application only consists of the new t
 ```
 
 # All working together
+
+![Reading from a distance](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9nht0kcb24hhavwoptla.jpg)
 
 ![Web Temperature APP](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jaik84a80elshjo3h6gr.png)
 
