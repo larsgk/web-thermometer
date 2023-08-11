@@ -138,6 +138,6 @@ Besides that (the `thingy52-widget`), the application only consists of the new t
 Repo: https://github.com/larsgk/web-thermometer
 Demo: https://larsgk.github.io/web-thermometer
 
-Feedback, request, issue reports and PRs are very welcome!
+Feedback, requests, issue reports and PRs are very welcome!
 
 Enjoy ;)
