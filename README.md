@@ -2,9 +2,9 @@
 title: Creating a Web Thermometer
 published: true
 description: Learn how to build a web thermometer with Web Bluetooth and Web Components
-tags: Sensors, WebBluetooth, Fugu
+tags: WebComponents, WebBluetooth, Fugu
 cover_image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3w78v9cspnq5v9mgwljc.jpg
-published_at: 2023-08-11 22:00 +0000
+published_at: 2023-08-11 00:15 +0000
 ---
 
 Spiderman has joined some LEGO spacemen in a quest to web enable a BLE GATT temperature sensor and display the readings on their 1x1cm brick display...
@@ -134,6 +134,9 @@ Besides that (the `thingy52-widget`), the application only consists of the new t
 ![Reading from a distance](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9nht0kcb24hhavwoptla.jpg)
 
 ![Web Temperature APP](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jaik84a80elshjo3h6gr.png)
+
+Repo: https://github.com/larsgk/web-thermometer
+Demo: https://larsgk.github.io/web-thermometer
 
 Feedback, request, issue reports and PRs are very welcome!
 
